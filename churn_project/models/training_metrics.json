@@ -1,0 +1,49 @@
+{
+  "best_model": "Random Forest",
+  "all_results": {
+    "Logistic Regression": {
+      "Accuracy": 0.776,
+      "Precision": 0.49595687331536387,
+      "Recall": 0.832579185520362,
+      "F1 Score": 0.6216216216216216,
+      "ROC-AUC": 0.8706196016473146
+    },
+    "Random Forest": {
+      "Accuracy": 0.81,
+      "Precision": 0.5543859649122806,
+      "Recall": 0.7149321266968326,
+      "F1 Score": 0.6245059288537549,
+      "ROC-AUC": 0.8621797292038174
+    },
+    "Gradient Boosting": {
+      "Accuracy": 0.837,
+      "Precision": 0.6883116883116883,
+      "Recall": 0.4796380090497738,
+      "F1 Score": 0.5653333333333334,
+      "ROC-AUC": 0.8648923378969441
+    }
+  },
+  "numerical_cols": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "SeniorCitizen"
+  ],
+  "categorical_cols": [
+    "gender",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod"
+  ]
+}

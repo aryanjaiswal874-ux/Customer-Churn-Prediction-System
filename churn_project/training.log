@@ -1,0 +1,118 @@
+2026-05-09 17:53:10  INFO      ============================================================
+2026-05-09 17:53:10  INFO      Customer Churn Prediction – Training Pipeline
+2026-05-09 17:53:10  INFO      ============================================================
+2026-05-09 17:53:10  INFO      Generating synthetic telecom churn dataset (5,000 rows)...
+2026-05-09 17:53:10  INFO      Shape: (5000, 20)  |  Churn rate: 22.1%
+2026-05-09 17:53:10  INFO      Train: 4000 rows | Test: 1000 rows
+2026-05-09 17:53:10  INFO      Training candidate models...
+2026-05-09 17:53:10  INFO      Training Logistic Regression...
+2026-05-09 17:53:11  INFO      Metrics: {'Accuracy': 0.776, 'Precision': 0.49595687331536387, 'Recall': 0.832579185520362, 'F1 Score': 0.6216216216216216, 'ROC-AUC': 0.8706196016473146}
+2026-05-09 17:53:11  INFO      Logistic Regression: {'Accuracy': 0.776, 'Precision': 0.49595687331536387, 'Recall': 0.832579185520362, 'F1 Score': 0.6216216216216216, 'ROC-AUC': 0.8706196016473146}
+2026-05-09 17:53:11  INFO      Training Random Forest...
+2026-05-09 17:53:11  INFO      Metrics: {'Accuracy': 0.81, 'Precision': 0.5543859649122806, 'Recall': 0.7149321266968326, 'F1 Score': 0.6245059288537549, 'ROC-AUC': 0.8621797292038174}
+2026-05-09 17:53:11  INFO      Random Forest: {'Accuracy': 0.81, 'Precision': 0.5543859649122806, 'Recall': 0.7149321266968326, 'F1 Score': 0.6245059288537549, 'ROC-AUC': 0.8621797292038174}
+2026-05-09 17:53:11  INFO      Training Gradient Boosting...
+2026-05-09 17:53:13  INFO      Metrics: {'Accuracy': 0.837, 'Precision': 0.6883116883116883, 'Recall': 0.4796380090497738, 'F1 Score': 0.5653333333333334, 'ROC-AUC': 0.8648923378969441}
+2026-05-09 17:53:13  INFO      Gradient Boosting: {'Accuracy': 0.837, 'Precision': 0.6883116883116883, 'Recall': 0.4796380090497738, 'F1 Score': 0.5653333333333334, 'ROC-AUC': 0.8648923378969441}
+2026-05-09 17:53:13  INFO      
+Best model: Random Forest (F1=0.6245)
+2026-05-09 17:53:13  INFO      Model                        Accuracy   Precision      Recall    F1 Score     ROC-AUC
+2026-05-09 17:53:13  INFO      -------------------------------------------------------------------------------------
+2026-05-09 17:53:13  INFO      Logistic Regression            0.7760      0.4960      0.8326      0.6216      0.8706
+2026-05-09 17:53:13  INFO      Gradient Boosting              0.8370      0.6883      0.4796      0.5653      0.8649
+2026-05-09 17:53:13  INFO        MonthlyCharges                           0.1939
+2026-05-09 17:53:13  INFO        tenure                                   0.1497
+2026-05-09 17:53:13  INFO        TotalCharges                             0.1177
+2026-05-09 17:53:13  INFO        InternetService_Fiber optic              0.0918
+2026-05-09 17:53:13  INFO        Contract_Two year                        0.0909
+2026-05-09 17:53:13  INFO        Contract_One year                        0.0378
+2026-05-09 17:53:13  INFO        StreamingMovies_No internet service      0.0247
+2026-05-09 17:53:13  INFO        TechSupport_No internet service          0.0235
+2026-05-09 17:53:13  INFO        DeviceProtection_No internet service     0.0232
+2026-05-09 17:53:13  INFO        OnlineSecurity_No internet service       0.0207
+2026-05-09 17:56:10  INFO      ============================================================
+2026-05-09 17:56:10  INFO      Customer Churn Prediction – Training Pipeline
+2026-05-09 17:56:10  INFO      ============================================================
+2026-05-09 17:56:10  INFO      Generating synthetic telecom churn dataset (5,000 rows)...
+2026-05-09 17:56:10  INFO      Shape: (5000, 20)  |  Churn rate: 22.1%
+2026-05-09 17:56:10  INFO      Train: 4000 rows | Test: 1000 rows
+2026-05-09 17:56:10  INFO      Training candidate models...
+2026-05-09 17:56:10  INFO      Training Logistic Regression...
+2026-05-09 17:56:10  INFO      Metrics: {'Accuracy': 0.776, 'Precision': 0.49595687331536387, 'Recall': 0.832579185520362, 'F1 Score': 0.6216216216216216, 'ROC-AUC': 0.8706196016473146}
+2026-05-09 17:56:10  INFO      Logistic Regression: {'Accuracy': 0.776, 'Precision': 0.49595687331536387, 'Recall': 0.832579185520362, 'F1 Score': 0.6216216216216216, 'ROC-AUC': 0.8706196016473146}
+2026-05-09 17:56:10  INFO      Training Random Forest...
+2026-05-09 17:56:10  INFO      Metrics: {'Accuracy': 0.81, 'Precision': 0.5543859649122806, 'Recall': 0.7149321266968326, 'F1 Score': 0.6245059288537549, 'ROC-AUC': 0.8621797292038174}
+2026-05-09 17:56:10  INFO      Random Forest: {'Accuracy': 0.81, 'Precision': 0.5543859649122806, 'Recall': 0.7149321266968326, 'F1 Score': 0.6245059288537549, 'ROC-AUC': 0.8621797292038174}
+2026-05-09 17:56:10  INFO      Training Gradient Boosting...
+2026-05-09 17:56:11  INFO      Metrics: {'Accuracy': 0.837, 'Precision': 0.6883116883116883, 'Recall': 0.4796380090497738, 'F1 Score': 0.5653333333333334, 'ROC-AUC': 0.8648923378969441}
+2026-05-09 17:56:11  INFO      Gradient Boosting: {'Accuracy': 0.837, 'Precision': 0.6883116883116883, 'Recall': 0.4796380090497738, 'F1 Score': 0.5653333333333334, 'ROC-AUC': 0.8648923378969441}
+2026-05-09 17:56:11  INFO      
+Best model: Random Forest (F1=0.6245)
+2026-05-09 17:56:11  INFO      
+Model Comparison:
+2026-05-09 17:56:11  INFO      Model                        Accuracy   Precision      Recall    F1 Score     ROC-AUC
+2026-05-09 17:56:11  INFO      -------------------------------------------------------------------------------------
+2026-05-09 17:56:11  INFO      Logistic Regression            0.7760      0.4960      0.8326      0.6216      0.8706
+2026-05-09 17:56:11  INFO      Gradient Boosting              0.8370      0.6883      0.4796      0.5653      0.8649
+2026-05-09 17:56:11  INFO      
+Pipeline saved -> C:\Users\korba\Downloads\churn_prediction_project\churn_project\models\churn_pipeline.pkl
+2026-05-09 17:56:11  INFO      
+Top-10 Feature Importances:
+2026-05-09 17:56:11  INFO        MonthlyCharges                           0.1939
+2026-05-09 17:56:11  INFO        tenure                                   0.1497
+2026-05-09 17:56:11  INFO        TotalCharges                             0.1177
+2026-05-09 17:56:11  INFO        InternetService_Fiber optic              0.0918
+2026-05-09 17:56:11  INFO        Contract_Two year                        0.0909
+2026-05-09 17:56:11  INFO        Contract_One year                        0.0378
+2026-05-09 17:56:11  INFO        StreamingMovies_No internet service      0.0247
+2026-05-09 17:56:11  INFO        TechSupport_No internet service          0.0235
+2026-05-09 17:56:11  INFO        DeviceProtection_No internet service     0.0232
+2026-05-09 17:56:11  INFO        OnlineSecurity_No internet service       0.0207
+2026-05-09 17:56:11  INFO      
+Training complete! Run: streamlit run app/app.py
+2026-05-09 17:59:31  INFO      ============================================================
+2026-05-09 17:59:31  INFO      Customer Churn Prediction - Training Pipeline
+2026-05-09 17:59:31  INFO      ============================================================
+2026-05-09 17:59:31  INFO      Generating synthetic telecom churn dataset (5,000 rows)...
+2026-05-09 17:59:31  INFO      Dataset saved to: C:\Users\korba\Downloads\churn_prediction_project\churn_project\data\churn_train.csv
+2026-05-09 17:59:31  INFO      Shape: (5000, 20)  |  Churn rate: 22.1%
+2026-05-09 17:59:31  INFO      Sample CSV template saved to: C:\Users\korba\Downloads\churn_prediction_project\churn_project\data\sample_template.csv
+2026-05-09 17:59:31  INFO      Train: 4000 rows | Test: 1000 rows
+2026-05-09 17:59:31  INFO      Training candidate models (this may take a minute)...
+2026-05-09 17:59:31  INFO      Training Logistic Regression...
+2026-05-09 17:59:31  INFO      Metrics: {'Accuracy': 0.776, 'Precision': 0.49595687331536387, 'Recall': 0.832579185520362, 'F1 Score': 0.6216216216216216, 'ROC-AUC': 0.8706196016473146}
+2026-05-09 17:59:31  INFO      Logistic Regression: {'Accuracy': 0.776, 'Precision': 0.49595687331536387, 'Recall': 0.832579185520362, 'F1 Score': 0.6216216216216216, 'ROC-AUC': 0.8706196016473146}
+2026-05-09 17:59:31  INFO      Training Random Forest...
+2026-05-09 17:59:31  INFO      Metrics: {'Accuracy': 0.81, 'Precision': 0.5543859649122806, 'Recall': 0.7149321266968326, 'F1 Score': 0.6245059288537549, 'ROC-AUC': 0.8621797292038174}
+2026-05-09 17:59:31  INFO      Random Forest: {'Accuracy': 0.81, 'Precision': 0.5543859649122806, 'Recall': 0.7149321266968326, 'F1 Score': 0.6245059288537549, 'ROC-AUC': 0.8621797292038174}
+2026-05-09 17:59:31  INFO      Training Gradient Boosting...
+2026-05-09 17:59:32  INFO      Metrics: {'Accuracy': 0.837, 'Precision': 0.6883116883116883, 'Recall': 0.4796380090497738, 'F1 Score': 0.5653333333333334, 'ROC-AUC': 0.8648923378969441}
+2026-05-09 17:59:32  INFO      Gradient Boosting: {'Accuracy': 0.837, 'Precision': 0.6883116883116883, 'Recall': 0.4796380090497738, 'F1 Score': 0.5653333333333334, 'ROC-AUC': 0.8648923378969441}
+2026-05-09 17:59:32  INFO      
+Best model: Random Forest (F1=0.6245)
+2026-05-09 17:59:32  INFO      
+2026-05-09 17:59:32  INFO      Model Comparison:
+2026-05-09 17:59:32  INFO      Model                        Accuracy   Precision      Recall    F1 Score     ROC-AUC
+2026-05-09 17:59:32  INFO      -------------------------------------------------------------------------------------
+2026-05-09 17:59:32  INFO      Logistic Regression            0.7760      0.4960      0.8326      0.6216      0.8706
+2026-05-09 17:59:32  INFO      Random Forest                  0.8100      0.5544      0.7149      0.6245      0.8622 << BEST
+2026-05-09 17:59:32  INFO      Gradient Boosting              0.8370      0.6883      0.4796      0.5653      0.8649
+2026-05-09 17:59:32  INFO      
+2026-05-09 17:59:32  INFO      Best model selected: Random Forest
+2026-05-09 17:59:32  INFO      Pipeline saved to: C:\Users\korba\Downloads\churn_prediction_project\churn_project\models\churn_pipeline.pkl
+2026-05-09 17:59:32  INFO      Metrics saved to: C:\Users\korba\Downloads\churn_prediction_project\churn_project\models\training_metrics.json
+2026-05-09 17:59:32  INFO      
+2026-05-09 17:59:32  INFO      Top-10 Feature Importances:
+2026-05-09 17:59:32  INFO        MonthlyCharges                           0.1939
+2026-05-09 17:59:32  INFO        tenure                                   0.1497
+2026-05-09 17:59:32  INFO        TotalCharges                             0.1177
+2026-05-09 17:59:32  INFO        InternetService_Fiber optic              0.0918
+2026-05-09 17:59:32  INFO        Contract_Two year                        0.0909
+2026-05-09 17:59:32  INFO        Contract_One year                        0.0378
+2026-05-09 17:59:32  INFO        StreamingMovies_No internet service      0.0247
+2026-05-09 17:59:32  INFO        TechSupport_No internet service          0.0235
+2026-05-09 17:59:32  INFO        DeviceProtection_No internet service     0.0232
+2026-05-09 17:59:32  INFO        OnlineSecurity_No internet service       0.0207
+2026-05-09 17:59:32  INFO      
+2026-05-09 17:59:32  INFO      Training complete! Run:  streamlit run app/app.py
+2026-05-09 17:59:32  INFO      ============================================================
